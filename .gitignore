@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Hassas API konfigürasyonunu yoksay
+src/main/java/com/ilerijava_entegrasyon/config/ApiConfig.java
