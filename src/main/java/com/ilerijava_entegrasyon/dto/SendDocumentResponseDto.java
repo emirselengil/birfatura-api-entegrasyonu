@@ -8,7 +8,7 @@ import lombok.Data;
  * SendDocument API yanıtını temsil eden ana DTO.
  */
 @Data
-@JsonIgnoreProperties(ignoreUnknown = true) // Bilmediğimiz alanları yoksay
+@JsonIgnoreProperties(ignoreUnknown = true) 
 public class SendDocumentResponseDto {
 
     @JsonProperty("Success")
